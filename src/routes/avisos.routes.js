@@ -5,7 +5,7 @@ import mqtt from 'mqtt'
     obtenerUsuarioGithub, obtenerRepositorioGithub, obtenerTodosLosRepositoriosGithub} from '../controllers/usuario.controller.js'
 */
 //const router = Router()
-const client  = mqtt.connect('https://nodejsapigithub-production-889f.up.railway.app/')
+const client  = mqtt.connect('https://nodejsapimqtt-production.up.railway.app/')
 
 
 function main(){
